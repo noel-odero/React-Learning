@@ -1,0 +1,136 @@
+<mxGraphModel dx="1426" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+  <root>
+    <mxCell id="0" />
+    <mxCell id="1" parent="0" />
+    <mxCell id="2" value="UniMart System" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;rounded=1;arcSize=15;" vertex="1" parent="1">
+      <mxGeometry x="200" y="120" width="600" height="520" as="geometry" />
+    </mxCell>
+    <!-- Actors -->
+    <mxCell id="3" value="Student User" style="actor;shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;strokeColor=#0066CC;fillColor=#CCE5FF;" vertex="1" parent="1">
+      <mxGeometry x="100" y="200" width="40" height="60" as="geometry" />
+    </mxCell>
+    <mxCell id="4" value="Administrator" style="actor;shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;strokeColor=#CC0000;fillColor=#FFCCCC;" vertex="1" parent="1">
+      <mxGeometry x="700" y="200" width="40" height="60" as="geometry" />
+    </mxCell>
+    <mxCell id="5" value="Firebase (External)" style="actor;shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;strokeColor=#666666;fillColor=#EAEAEA;" vertex="1" parent="1">
+      <mxGeometry x="400" y="600" width="40" height="60" as="geometry" />
+    </mxCell>
+    <!-- Use Cases -->
+    <mxCell id="6" value="Register/Login with campus email" style="ellipse;whiteSpace=wrap;fillColor=#FFFFFF;strokeColor=#000000;" vertex="1" parent="2">
+      <mxGeometry x="100" y="40" width="200" height="30" as="geometry" />
+    </mxCell>
+    <mxCell id="7" value="Verify email via OTP" style="ellipse;whiteSpace=wrap;fillColor=#FFFFFF;strokeColor=#000000;" vertex="1" parent="2">
+      <mxGeometry x="100" y="80" width="200" height="30" as="geometry" />
+    </mxCell>
+    <mxCell id="8" value="Create, edit, delete item listings" style="ellipse;whiteSpace=wrap;fillColor=#FFFFFF;strokeColor=#000000;" vertex="1" parent="2">
+      <mxGeometry x="100" y="120" width="200" height="30" as="geometry" />
+    </mxCell>
+    <mxCell id="9" value="Search/browse listings" style="ellipse;whiteSpace=wrap;fillColor=#FFFFFF;strokeColor=#000000;" vertex="1" parent="2">
+      <mxGeometry x="100" y="160" width="200" height="30" as="geometry" />
+    </mxCell>
+    <mxCell id="10" value="Send and receive messages (chat)" style="ellipse;whiteSpace=wrap;fillColor=#FFFFFF;strokeColor=#000000;" vertex="1" parent="2">
+      <mxGeometry x="100" y="200" width="200" height="30" as="geometry" />
+    </mxCell>
+    <mxCell id="11" value="Upload and view images" style="ellipse;whiteSpace=wrap;fillColor=#FFFFFF;strokeColor=#000000;" vertex="1" parent="2">
+      <mxGeometry x="100" y="240" width="200" height="30" as="geometry" />
+    </mxCell>
+    <mxCell id="12" value="Report users or posts" style="ellipse;whiteSpace=wrap;fillColor=#FFFFFF;strokeColor=#000000;" vertex="1" parent="2">
+      <mxGeometry x="100" y="280" width="200" height="30" as="geometry" />
+    </mxCell>
+    <mxCell id="13" value="View dashboard and profile" style="ellipse;whiteSpace=wrap;fillColor=#FFFFFF;strokeColor=#000000;" vertex="1" parent="2">
+      <mxGeometry x="100" y="320" width="200" height="30" as="geometry" />
+    </mxCell>
+    <mxCell id="14" value="Admin moderates listings" style="ellipse;whiteSpace=wrap;fillColor=#FFFFFF;strokeColor=#000000;" vertex="1" parent="2">
+      <mxGeometry x="300" y="120" width="200" height="30" as="geometry" />
+    </mxCell>
+    <mxCell id="15" value="Admin handles abuse reports" style="ellipse;whiteSpace=wrap;fillColor=#FFFFFF;strokeColor=#000000;" vertex="1" parent="2">
+      <mxGeometry x="300" y="160" width="200" height="30" as="geometry" />
+    </mxCell>
+    <!-- Relationships -->
+    <!-- Student to Use Cases -->
+    <mxCell id="16" style="edgeStyle=none;curved=1;endArrow=block;endFill=1;strokeColor=#0066CC;" edge="1" parent="1" source="3" target="6">
+      <mxGeometry width="50" height="50" relative="1" as="geometry">
+        <mxPoint x="140" y="200" as="sourcePoint" />
+        <mxPoint x="190" y="150" as="targetPoint" />
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="17" style="edgeStyle=none;curved=1;endArrow=block;endFill=1;strokeColor=#0066CC;" edge="1" parent="1" source="3" target="7">
+      <mxGeometry width="50" height="50" relative="1" as="geometry">
+        <mxPoint x="140" y="200" as="sourcePoint" />
+        <mxPoint x="190" y="190" as="targetPoint" />
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="18" style="edgeStyle=none;curved=1;endArrow=block;endFill=1;strokeColor=#0066CC;" edge="1" parent="1" source="3" target="8">
+      <mxGeometry width="50" height="50" relative="1" as="geometry">
+        <mxPoint x="140" y="200" as="sourcePoint" />
+        <mxPoint x="190" y="230" as="targetPoint" />
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="19" style="edgeStyle=none;curved=1;endArrow=block;endFill=1;strokeColor=#0066CC;" edge="1" parent="1" source="3" target="9">
+      <mxGeometry width="50" height="50" relative="1" as="geometry">
+        <mxPoint x="140" y="200" as="sourcePoint" />
+        <mxPoint x="190" y="270" as="targetPoint" />
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="20" style="edgeStyle=none;curved=1;endArrow=block;endFill=1;strokeColor=#0066CC;" edge="1" parent="1" source="3" target="10">
+      <mxGeometry width="50" height="50" relative="1" as="geometry">
+        <mxPoint x="140" y="200" as="sourcePoint" />
+        <mxPoint x="190" y="310" as="targetPoint" />
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="21" style="edgeStyle=none;curved=1;endArrow=block;endFill=1;strokeColor=#0066CC;" edge="1" parent="1" source="3" target="11">
+      <mxGeometry width="50" height="50" relative="1" as="geometry">
+        <mxPoint x="140" y="200" as="sourcePoint" />
+        <mxPoint x="190" y="350" as="targetPoint" />
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="22" style="edgeStyle=none;curved=1;endArrow=block;endFill=1;strokeColor=#0066CC;" edge="1" parent="1" source="3" target="12">
+      <mxGeometry width="50" height="50" relative="1" as="geometry">
+        <mxPoint x="140" y="200" as="sourcePoint" />
+        <mxPoint x="190" y="390" as="targetPoint" />
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="23" style="edgeStyle=none;curved=1;endArrow=block;endFill=1;strokeColor=#0066CC;" edge="1" parent="1" source="3" target="13">
+      <mxGeometry width="50" height="50" relative="1" as="geometry">
+        <mxPoint x="140" y="200" as="sourcePoint" />
+        <mxPoint x="190" y="430" as="targetPoint" />
+      </mxGeometry>
+    </mxCell>
+    <!-- Admin to Use Cases -->
+    <mxCell id="24" style="edgeStyle=none;curved=1;endArrow=block;endFill=1;strokeColor=#CC0000;" edge="1" parent="1" source="4" target="14">
+      <mxGeometry width="50" height="50" relative="1" as="geometry">
+        <mxPoint x="700" y="230" as="sourcePoint" />
+        <mxPoint x="500" y="230" as="targetPoint" />
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="25" style="edgeStyle=none;curved=1;endArrow=block;endFill=1;strokeColor=#CC0000;" edge="1" parent="1" source="4" target="15">
+      <mxGeometry width="50" height="50" relative="1" as="geometry">
+        <mxPoint x="700" y="230" as="sourcePoint" />
+        <mxPoint x="500" y="270" as="targetPoint" />
+      </mxGeometry>
+    </mxCell>
+    <!-- Firebase Extensions -->
+    <mxCell id="26" value="&lt;&lt;extend&gt;&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;" vertex="1" parent="1">
+      <mxGeometry x="300" y="500" width="60" height="30" as="geometry" />
+    </mxCell>
+    <mxCell id="27" style="edgeStyle=none;endArrow=open;dashed=1;strokeColor=#666666;" edge="1" parent="1" source="10" target="5">
+      <mxGeometry width="50" height="50" relative="1" as="geometry">
+        <mxPoint x="300" y="400" as="sourcePoint" />
+        <mxPoint x="420" y="600" as="targetPoint" />
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="28" style="edgeStyle=none;endArrow=open;dashed=1;strokeColor=#666666;" edge="1" parent="1" source="11" target="5">
+      <mxGeometry width="50" height="50" relative="1" as="geometry">
+        <mxPoint x="300" y="440" as="sourcePoint" />
+        <mxPoint x="420" y="600" as="targetPoint" />
+      </mxGeometry>
+    </mxCell>
+    <!-- Report to Admin -->
+    <mxCell id="29" style="edgeStyle=none;endArrow=block;strokeColor=#000000;" edge="1" parent="1" source="12" target="15">
+      <mxGeometry width="50" height="50" relative="1" as="geometry">
+        <mxPoint x="300" y="390" as="sourcePoint" />
+        <mxPoint x="400" y="270" as="targetPoint" />
+      </mxGeometry>
+    </mxCell>
+  </root>
+</mxGraphModel>
