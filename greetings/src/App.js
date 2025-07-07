@@ -1,9 +1,17 @@
 import './App.css';
 import Greetings from './greetings';
+import Demo from './counter';
+import Users from './effect'
 
 function App() {
   return (
-    <Greetings randomMax={8}/>
+  
+    <div className="App">
+      <Greetings randomMax={8}/>
+      <Demo/>
+      <Users/>
+      {/* <Demo /> */}
+    </div>
   );
 }
 
