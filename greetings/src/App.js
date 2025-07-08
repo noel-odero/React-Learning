@@ -1,16 +1,19 @@
 import './App.css';
 import Greetings from './greetings';
-import Demo from './counter';
+import Counter from './count';
 import Users from './effect'
+import Focus from './focus';
+import Demo from './counter';
 
 function App() {
   return (
   
     <div className="App">
       <Greetings randomMax={8}/>
-      <Demo/>
+      <Demo />
+      <Counter/>
+      <Focus/>
       <Users/>
-      {/* <Demo /> */}
     </div>
   );
 }
