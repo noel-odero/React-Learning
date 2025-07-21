@@ -1,0 +1,21 @@
+body {
+  background-color: white;
+  padding: 40px;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.App {
+  background-color: #ffc400;
+  width: 700px;
+  height: 700px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #333;
+  font-family: sans-serif;
+}
