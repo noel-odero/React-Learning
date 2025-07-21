@@ -1,7 +1,17 @@
-const Button = ({onClick, children}) => {
+import { useState } from "react";
+
+const Button = () => {
+    const [count, setCount] = useState(0)
+    const handleClick = () => {
+        return(setCount((prev => prev + 1)))
+    }
+
     
     return(
-            <button onClick={onClick}>{children}</button>
+        <>
+            <p>Button has been clicked: {count} times</p>
+            <button onClick={handleClick}>Click me</button>
+        </>
     )
 }
 

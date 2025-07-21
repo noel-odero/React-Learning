@@ -14,8 +14,13 @@ body {
   width: 700px;
   height: 700px;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   color: #333;
   font-family: sans-serif;
+}
+.greet{
+  display: flex;
+  flex-direction: column;
 }
