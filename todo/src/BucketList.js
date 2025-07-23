@@ -74,3 +74,8 @@ const Header = () => {
 };
 
 export default BucketList;
+
+
+// with useState - satte is updated from multiple places. State update logic is separated across multiple places.
+// Leads to unpredictability, you don't know where the state is changing from
+// 
