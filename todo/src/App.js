@@ -15,12 +15,13 @@
 //     )
 // }
 
-import BucketList from "./BucketList";
+// import BucketList from "./BucketList";
+import BucketListWithReducer from './BucketListWithReducer';
 
 const App = () => {
     return(
         <div className="App">
-            <BucketList/>
+            <BucketListWithReducer/>
         </div>
     )
 }
