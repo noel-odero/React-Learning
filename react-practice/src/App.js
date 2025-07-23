@@ -2,6 +2,7 @@ import './App.css';
 import Button from './button';
 import MappedList from './maps';
 import Greetings from './greet';
+import Counter from './counter';
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
       <Button/>
       <MappedList/>
       <Greetings className='greet'/>
+      <Counter className="count"/>
     </div>
   );
 }

@@ -1,18 +1,27 @@
-import TodoList from "./TodoList";
+// import TodoList from "./TodoList";
+
+// const App = () => {
+//     const todos = [
+//             { id: 1, title: 'Learn React', completed: true },
+//             { id: 2, title: 'Build an app', completed: false },
+//             { id: 3, title: 'Deploy the app', completed: false },
+//     ]
+
+//     return (
+//         <main>
+//             <h1>Todo List</h1>
+//             <TodoList todos={todos} />
+//         </main>
+//     )
+// }
+
+import BucketList from "./BucketList";
 
 const App = () => {
-    const todos = [
-            { id: 1, title: 'Learn React', completed: true },
-            { id: 2, title: 'Build an app', completed: false },
-            { id: 3, title: 'Deploy the app', completed: false },
-    ]
-
-    return (
-        <main>
-            <h1>Todo List</h1>
-            <TodoList todos={todos} />
-        </main>
+    return(
+        <div className="App">
+            <BucketList/>
+        </div>
     )
 }
-
 export default App;
