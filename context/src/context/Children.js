@@ -6,11 +6,11 @@ import { useContext } from 'react';
 
 const Children = () => {
     const secret = useContext(FamilyContext);
-    <div className="children">
+    return (<div className="children">
         <h2>{`Children ${secret.familyName}`}</h2>
         <Grandson />
         <GrandDaughter />
-    </div>
+    </div>)
 }
 
 export default Children;    

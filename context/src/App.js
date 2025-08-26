@@ -1,6 +1,7 @@
 import './App.css';
 import Family from './context/Family';
 import {FamilyContext} from './context/familyContext'
+// context - information globally available
 
 
 const FamilySecret = {

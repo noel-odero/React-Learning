@@ -1,9 +1,10 @@
 import Parent from './Parent'
 
 const Family = ()=> {
+    return (
     <div className="family">
         <Parent/>
-    </div>
+    </div>)
 }
 
 export default Family;
