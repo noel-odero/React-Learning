@@ -1,10 +1,11 @@
+import React from 'react';
 import './App.css';
-import FindUser from './finduser'
+import Canvas from './features/canvas/Canvas';
 
 function App() {
   return (
     <div className="App">
-      <FindUser/>
+      <Canvas/>
     </div>
   );
 }
